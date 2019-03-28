@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Switch from '@material-ui/core/Switch';
+import FormControlLabel from '@mcesystems/material-ui-core/FormControlLabel';
+import Switch from '@mcesystems/material-ui-core/Switch';
 import MUIDataTable from "../../src/";
 import Cities from "./cities";
 

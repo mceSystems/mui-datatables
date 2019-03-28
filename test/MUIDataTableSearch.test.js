@@ -3,7 +3,7 @@ import simulant from 'simulant';
 import { spy, stub } from 'sinon';
 import { mount, shallow } from 'enzyme';
 import { assert, expect, should } from 'chai';
-import TextField from '@material-ui/core/TextField';
+import TextField from '@mcesystems/material-ui-core/TextField';
 import TableSearch from '../src/components/TableSearch';
 import textLabels from '../src/textLabels';
 

@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core';
-import Drawer from '@material-ui/core/Drawer';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-import ListSubheader from '@material-ui/core/ListSubheader';
+import { withStyles } from '@mcesystems/material-ui-core';
+import Drawer from '@mcesystems/material-ui-core/Drawer';
+import List from '@mcesystems/material-ui-core/List';
+import ListItem from '@mcesystems/material-ui-core/ListItem';
+import ListItemText from '@mcesystems/material-ui-core/ListItemText';
+import ListSubheader from '@mcesystems/material-ui-core/ListSubheader';
 
 const styles = theme => ({
   list: {

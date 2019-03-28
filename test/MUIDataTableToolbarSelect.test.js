@@ -2,7 +2,7 @@ import React from 'react';
 import { match, spy, stub } from 'sinon';
 import { mount, shallow } from 'enzyme';
 import { assert, expect, should } from 'chai';
-import DeleteIcon from '@material-ui/icons/Delete';
+import DeleteIcon from '@mcesystems/material-ui-icons/Delete';
 import TableToolbarSelect from '../src/components/TableToolbarSelect';
 import textLabels from '../src/textLabels';
 

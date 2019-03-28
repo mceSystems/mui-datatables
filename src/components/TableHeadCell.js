@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import TableCell from '@material-ui/core/TableCell';
-import TableSortLabel from '@material-ui/core/TableSortLabel';
-import Tooltip from '@material-ui/core/Tooltip';
-import { withStyles } from '@material-ui/core/styles';
-import HelpIcon from '@material-ui/icons/Help';
+import TableCell from '@mcesystems/material-ui-core/TableCell';
+import TableSortLabel from '@mcesystems/material-ui-core/TableSortLabel';
+import Tooltip from '@mcesystems/material-ui-core/Tooltip';
+import { withStyles } from '@mcesystems/material-ui-core/styles';
+import HelpIcon from '@mcesystems/material-ui-icons/Help';
 
 const defaultHeadCellStyles = theme => ({
   root: {},

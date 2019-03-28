@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import Checkbox from '@material-ui/core/Checkbox';
-import TableCell from '@material-ui/core/TableCell';
-import { withStyles } from '@material-ui/core/styles';
-import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
+import Checkbox from '@mcesystems/material-ui-core/Checkbox';
+import TableCell from '@mcesystems/material-ui-core/TableCell';
+import { withStyles } from '@mcesystems/material-ui-core/styles';
+import KeyboardArrowRight from '@mcesystems/material-ui-icons/KeyboardArrowRight';
 
 const defaultSelectCellStyles = theme => ({
   root: {

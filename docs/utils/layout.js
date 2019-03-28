@@ -1,15 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Head from 'next/head';
-import Typography from '@material-ui/core/Typography';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
-import Tooltip from '@material-ui/core/Tooltip';
+import Typography from '@mcesystems/material-ui-core/Typography';
+import AppBar from '@mcesystems/material-ui-core/AppBar';
+import Toolbar from '@mcesystems/material-ui-core/Toolbar';
+import IconButton from '@mcesystems/material-ui-core/IconButton';
+import MenuIcon from '@mcesystems/material-ui-icons/Menu';
+import Tooltip from '@mcesystems/material-ui-core/Tooltip';
 import GitHub from '../icons/GitHub';
 import withRoot from '../utils/withRoot';
-import { withStyles } from '@material-ui/core/styles';
+import { withStyles } from '@mcesystems/material-ui-core/styles';
 import Menu from './Menu';
 
 /* eslint-disable import/no-webpack-loader-syntax  */

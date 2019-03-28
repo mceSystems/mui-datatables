@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import MUIDataTable from "../../src/";
-import TableRow from "@material-ui/core/TableRow";
-import TableCell from "@material-ui/core/TableCell";
+import TableRow from "@mcesystems/material-ui-core/TableRow";
+import TableCell from "@mcesystems/material-ui-core/TableCell";
 
 class Example extends React.Component {
 

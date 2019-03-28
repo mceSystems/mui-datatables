@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Chip from '@material-ui/core/Chip';
-import { withStyles } from '@material-ui/core/styles';
+import Chip from '@mcesystems/material-ui-core/Chip';
+import { withStyles } from '@mcesystems/material-ui-core/styles';
 
 const defaultFilterListStyles = {
   root: {

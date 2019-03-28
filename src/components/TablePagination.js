@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import MuiTableRow from '@material-ui/core/TableRow';
-import MuiTableFooter from '@material-ui/core/TableFooter';
-import MuiTablePagination from '@material-ui/core/TablePagination';
-import { withStyles } from '@material-ui/core/styles';
+import MuiTableRow from '@mcesystems/material-ui-core/TableRow';
+import MuiTableFooter from '@mcesystems/material-ui-core/TableFooter';
+import MuiTablePagination from '@mcesystems/material-ui-core/TablePagination';
+import { withStyles } from '@mcesystems/material-ui-core/styles';
 
 const defaultPaginationStyles = {
   root: {

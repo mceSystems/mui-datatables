@@ -1,8 +1,8 @@
 import React from "react";
-import TableFooter from "@material-ui/core/TableFooter";
-import TableRow from "@material-ui/core/TableRow";
-import TableCell from "@material-ui/core/TableCell";
-import { withStyles } from "@material-ui/core/styles";
+import TableFooter from "@mcesystems/material-ui-core/TableFooter";
+import TableRow from "@mcesystems/material-ui-core/TableRow";
+import TableCell from "@mcesystems/material-ui-core/TableCell";
+import { withStyles } from "@mcesystems/material-ui-core/styles";
 
 const defaultFooterStyles = {
 };

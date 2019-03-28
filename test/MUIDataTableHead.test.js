@@ -4,7 +4,7 @@ import { mount, shallow } from 'enzyme';
 import { assert, expect, should } from 'chai';
 import TableHead from '../src/components/TableHead';
 import TableHeadCell from '../src/components/TableHeadCell';
-import Tooltip from '@material-ui/core/Tooltip';
+import Tooltip from '@mcesystems/material-ui-core/Tooltip';
 
 describe('<TableHead />', function() {
   let columns;

@@ -6,7 +6,7 @@ import MUIDataTable from '../src/MUIDataTable';
 import TableFilterList from '../src/components/TableFilterList';
 import TablePagination from '../src/components/TablePagination';
 import textLabels from '../src/textLabels';
-import Chip from '@material-ui/core/Chip';
+import Chip from '@mcesystems/material-ui-core/Chip';
 import Cities from '../examples/component/cities';
 import { getCollatorComparator } from '../src/utils';
 

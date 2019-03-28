@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import merge from 'lodash.merge';
-import { withStyles } from '@material-ui/core/styles';
+import { withStyles } from '@mcesystems/material-ui-core/styles';
 
 /*
  *  Material-UI does not yet support ability to grab props within style()

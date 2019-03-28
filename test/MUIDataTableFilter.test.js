@@ -3,11 +3,11 @@ import { spy, stub } from 'sinon';
 import { mount, shallow } from 'enzyme';
 import { assert, expect, should } from 'chai';
 import textLabels from '../src/textLabels';
-import Select from '@material-ui/core/Select';
-import Checkbox from '@material-ui/core/Checkbox';
-import TextField from '@material-ui/core/TextField';
+import Select from '@mcesystems/material-ui-core/Select';
+import Checkbox from '@mcesystems/material-ui-core/Checkbox';
+import TextField from '@mcesystems/material-ui-core/TextField';
 import TableFilter from '../src/components/TableFilter';
-import Typography from '@material-ui/core/Typography';
+import Typography from '@mcesystems/material-ui-core/Typography';
 
 describe('<TableFilter />', function() {
   let data;

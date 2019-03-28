@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import MUIDataTable from "../../src/";
-import {createMuiTheme, MuiThemeProvider, withStyles} from '@material-ui/core/styles';
+import {createMuiTheme, MuiThemeProvider, withStyles} from '@mcesystems/material-ui-core/styles';
 import classnames from 'classnames';
 
 const customStyles = {

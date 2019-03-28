@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Typography from '@material-ui/core/Typography';
-import MuiTableBody from '@material-ui/core/TableBody';
+import Typography from '@mcesystems/material-ui-core/Typography';
+import MuiTableBody from '@mcesystems/material-ui-core/TableBody';
 import TableBodyCell from './TableBodyCell';
 import TableBodyRow from './TableBodyRow';
 import TableSelectCell from './TableSelectCell';
-import { withStyles } from '@material-ui/core/styles';
+import { withStyles } from '@mcesystems/material-ui-core/styles';
 
 const defaultBodyStyles = {
   root: {},

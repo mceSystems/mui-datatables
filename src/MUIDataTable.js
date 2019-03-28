@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Paper from '@material-ui/core/Paper';
-import MuiTable from '@material-ui/core/Table';
+import Paper from '@mcesystems/material-ui-core/Paper';
+import MuiTable from '@mcesystems/material-ui-core/Table';
 import TableToolbar from './components/TableToolbar';
 import TableToolbarSelect from './components/TableToolbarSelect';
 import TableFilterList from './components/TableFilterList';
@@ -14,7 +14,7 @@ import cloneDeep from 'lodash.clonedeep';
 import merge from 'lodash.merge';
 import isEqual from 'lodash.isequal';
 import textLabels from './textLabels';
-import { withStyles } from '@material-ui/core/styles';
+import { withStyles } from '@mcesystems/material-ui-core/styles';
 import { buildMap, getCollatorComparator, sortCompare } from './utils';
 
 const defaultTableStyles = {

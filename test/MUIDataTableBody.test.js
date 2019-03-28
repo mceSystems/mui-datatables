@@ -5,7 +5,7 @@ import { assert, expect, should } from 'chai';
 import textLabels from '../src/textLabels';
 import TableBody from '../src/components/TableBody';
 import TableSelectCell from '../src/components/TableSelectCell';
-import Checkbox from '@material-ui/core/Checkbox';
+import Checkbox from '@mcesystems/material-ui-core/Checkbox';
 
 describe('<TableBody />', function() {
   let data;

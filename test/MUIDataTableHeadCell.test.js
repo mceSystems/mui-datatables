@@ -4,8 +4,8 @@ import { mount, shallow } from 'enzyme';
 import { assert, expect, should } from 'chai';
 import textLabels from '../src/textLabels';
 import TableHeadCell from '../src/components/TableHeadCell';
-import TableSortLabel from '@material-ui/core/TableSortLabel';
-import HelpIcon from '@material-ui/icons/Help';
+import TableSortLabel from '@mcesystems/material-ui-core/TableSortLabel';
+import HelpIcon from '@mcesystems/material-ui-icons/Help';
 
 describe('<TableHeadCell />', function() {
   let classes;

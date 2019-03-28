@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import MuiPopover from '@material-ui/core/Popover';
+import MuiPopover from '@mcesystems/material-ui-core/Popover';
 import { findDOMNode } from 'react-dom';
 
 class Popover extends React.Component {
